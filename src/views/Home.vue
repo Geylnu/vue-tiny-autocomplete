@@ -1,18 +1,14 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <base-auto-complete></base-auto-complete>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+import BaseAutoComplete from "@/components/AutoComplete/BaseAutoComplete.vue";
 
 export default {
   name: "Home",
-  components: {
-    HelloWorld,
-  },
+  components: { BaseAutoComplete },
 };
 </script>
