@@ -4,4 +4,14 @@
   </div>
 </template>
 
-<style lang="scss"></style>
+<style lang="scss">
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+}
+#app {
+  height: 100%;
+}
+</style>
