@@ -25,6 +25,7 @@ export default {
         { value: "wonollivo-8662@yopmail.com" },
         { value: "nudduzuffad-8616@yopmail.com" },
         { value: "tuzuqudo-7454@yopmail.com" },
+        { value: "testestesta" },
       ];
     },
   },
@@ -37,5 +38,6 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #eeee;
 }
 </style>

@@ -1,7 +1,7 @@
 import { shallowMount } from "@vue/test-utils";
 import BaseInput from "@/components/BaseInput/index.vue";
 
-describe("BaseInput.vue", () => {
+describe("BaseInput", () => {
   it("组件能够正确接受初始值", async () => {
     const value = "init value";
     const wrapper = shallowMount(BaseInput, {

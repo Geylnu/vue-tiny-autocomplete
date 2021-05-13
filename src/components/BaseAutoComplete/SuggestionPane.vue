@@ -1,7 +1,7 @@
 <template>
-  <div class="base-autocomplete-pane">
+  <ul class="base-autocomplete-pane">
     <slot></slot>
-  </div>
+  </ul>
 </template>
 
 <script>
@@ -12,9 +12,12 @@ export default {
 
 <style lang="scss" scoped>
 .base-autocomplete-pane {
+  margin: 0px;
   position: absolute;
   width: 100%;
   overflow: hidden;
   z-index: 10;
+  padding: 0px;
+  box-sizing: border-box;
 }
 </style>
