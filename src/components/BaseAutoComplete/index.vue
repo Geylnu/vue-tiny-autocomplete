@@ -86,7 +86,6 @@ export default {
       this.updateSuggestions(this.value);
     },
     handleItemClick(suggestion) {
-      console.log("item-click", suggestion[this.valueKey]);
       this.$emit("input", suggestion[this.valueKey]);
       this.paneFocus = false;
       this.suggestions = [suggestion];
@@ -109,7 +108,6 @@ export default {
         return true;
       } else {
         const regexp = new RegExp(`${keywords}`, "g");
-        console.log(item[this.valueKey], item[this.valueKey].match(regexp));
         return item[this.valueKey].match(regexp);
       }
     },
