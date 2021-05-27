@@ -1,6 +1,6 @@
 {
   "name": "vue-tiny-autocomplete",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "a tiny autocomplete component",
   "main": "dist/vue-tiny-autocomplete.common.js",
   "keywords": [
@@ -10,7 +10,9 @@
   ],
   "files": [
     "dist/vue-tiny-autocomplete.common.js",
-    "dist/vue-tiny-autocomplete.css"
+    "dist/vue-tiny-autocomplete.umd.js",
+    "dist/vue-tiny-autocomplete.umd.min.js",
+    "src/components/**/*.vue"
   ],
   "repository": {
     "type": "git",
